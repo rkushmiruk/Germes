@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
  * @author RomanKushmiruk
  *
  */
-public class AbstractEntity {
+public abstract class AbstractEntity {
     /**
      * Unique entity identifier
      */
