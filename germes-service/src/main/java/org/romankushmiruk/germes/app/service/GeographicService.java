@@ -17,9 +17,11 @@ public interface GeographicService {
      */
     List<City> findCities();
 
+
     /**
      * Saves specified city instance
      * @param city
      */
     void saveCity(City city);
+
 }

@@ -34,5 +34,6 @@ public class GeographicServiceImplTest {
         List<City> cities = service.findCities();
         assertEquals(cities.size(),1);
         assertEquals(cities.get(0).getName(),"Odessa");
+
     }
 }
